@@ -6,7 +6,7 @@ const replaceTemplate = require("./modules/replaceTemplate");
 //function replacetemplate
 
 ////Reading file from JSON file
-const tempOverview = fs.readFileSync("./template-overview.html", "utf-8");
+const tempOverview = fs.readFileSync("./index.html", "utf-8");
 const tempCard = fs.readFileSync("./template-card.html", "utf-8");
 const tempProduct = fs.readFileSync("./template-product.html", "utf-8");
 
